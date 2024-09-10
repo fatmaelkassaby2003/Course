@@ -37,8 +37,8 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="<?php echo $home; ?>">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="<?php echo $home; ?>">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?php echo $About ?>">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?php echo $Team ?>">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -49,6 +49,7 @@
             <div class="container">
                 <div class="masthead-subheading">Welcome To Our Studio!</div>
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <div class="masthead-subheading">Page To Contact Us</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="<?php echo $home; ?>">Tell Me More</a>
             </div>
         </header>
